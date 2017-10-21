@@ -28,7 +28,7 @@ This docker image contains the following software stack:
 #### Installation
 
    ```
-   $ docker pull globdev/android
+   $ docker pull globdev/android:latest
    ```
 
 #### Usage
@@ -36,13 +36,13 @@ This docker image contains the following software stack:
 ##### Use as base image
 
 ```Dockerfile
-FROM globdev/android
+FROM globdev/android:latest
 ```
 
 ##### Pull from Docker Hub
 
 ```
-docker pull globdev/android
+docker pull globdev/android:latest
 ```
 
 ##### Build from GitHub
